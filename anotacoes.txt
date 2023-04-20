@@ -1,3 +1,5 @@
 . myvenv\Scripts\activate.ps1 = Ativar ambiente virtual; Sem isso varios outros comandos não iram funcionar. Sem isso o Django não vai rodar.
 Já que o django está instalado no ambiente virutal
 python manage.py runserver = executa o projeto na web; Para funcionar precisa ativar o ambiente virtual
+para voltar o projeto para um commit especifico = git reset + hash do commit + --hard 
+exemplo: git reset d686d26ea8ae849eee2f51aee24db2786d8682c5 -- hard
